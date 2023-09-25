@@ -8,18 +8,18 @@
       "card_bg": "#0052FF26",
       "text_button_bg": "#0052FF",
       "description": "Child health, clothing rights, and better food for the needy are vital aspects of ensuring a bright future for children. Adequate healthcare, immunizations, and nutrition are fundamental for their well-being. Access to clean and suitable clothing not only protects their physical health but also their self-esteem. Providing nutritious food to those in need is essential in addressing child poverty and malnutrition, ensuring no child goes hungry and fostering their physical and cognitive development. Society must prioritize these rights to secure a healthy future for all children.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 2,
       "picture": "https://i.ibb.co/3sb6dxr/Education.png",
-      "title": "Good education",
+      "title": "Good Education",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_button_bg": "#FF444A",
       "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "card_bg": "#79C23F26",
       "text_button_bg": "#2ECC71",
       "description": "Clothing rights for children involve ensuring they have access to clean, appropriate attire. Adequate clothing not only protects them from the elements but also contributes to their self-esteem and social integration. It's essential to advocate for policies and initiatives that provide disadvantaged children with access to clothing and the means to maintain their dignity.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 4,
@@ -41,7 +41,7 @@
       "card_bg": "#F8714726",
       "text_button_bg": "#F87147",
       "description": "Better food for the needy is a critical issue in addressing child poverty and malnutrition. Nutrient-rich meals are essential for a child's growth and cognitive development. To combat food insecurity, governments and charitable organizations must work together to provide nutritious food options and promote education about healthy eating to empower families in need. This ensures that no child goes to bed hungry and that they have the nourishment required for a bright future.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
       "card_bg": "#F8714726",
       "text_button_bg": "#F87147",
       "description": "Better food for the needy is a critical issue in addressing child poverty and malnutrition. Nutrient-rich meals are essential for a child's growth and cognitive development. To combat food insecurity, governments and charitable organizations must work together to provide nutritious food options and promote education about healthy eating to empower families in need. This ensures that no child goes to bed hungry and that they have the nourishment required for a bright future.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 6,
@@ -63,18 +63,18 @@
       "card_bg": "#79C23F26",
       "text_button_bg": "#2ECC71",
       "description": "Clothing rights for children involve ensuring they have access to clean, appropriate attire. Adequate clothing not only protects them from the elements but also contributes to their self-esteem and social integration. It's essential to advocate for policies and initiatives that provide disadvantaged children with access to clothing and the means to maintain their dignity.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 7,
       "picture": "https://i.ibb.co/3sb6dxr/Education.png",
-      "title": "Good education",
+      "title": "Good Education",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_button_bg": "#FF444A",
       "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 8,
@@ -85,7 +85,7 @@
       "card_bg": "#0052FF26",
       "text_button_bg": "#0052FF",
       "description": "Child health, clothing rights, and better food for the needy are vital aspects of ensuring a bright future for children. Adequate healthcare, immunizations, and nutrition are fundamental for their well-being. Access to clean and suitable clothing not only protects their physical health but also their self-esteem. Providing nutritious food to those in need is essential in addressing child poverty and malnutrition, ensuring no child goes hungry and fostering their physical and cognitive development. Society must prioritize these rights to secure a healthy future for all children.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 9,
@@ -96,18 +96,18 @@
       "card_bg": "#0052FF26",
       "text_button_bg": "#0052FF",
       "description": "Child health, clothing rights, and better food for the needy are vital aspects of ensuring a bright future for children. Adequate healthcare, immunizations, and nutrition are fundamental for their well-being. Access to clean and suitable clothing not only protects their physical health but also their self-esteem. Providing nutritious food to those in need is essential in addressing child poverty and malnutrition, ensuring no child goes hungry and fostering their physical and cognitive development. Society must prioritize these rights to secure a healthy future for all children.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 10,
       "picture": "https://i.ibb.co/3sb6dxr/Education.png",
-      "title": "Good education",
+      "title": "Good Education",
       "category": "Education",
       "category_bg": "#FF444A33",
       "card_bg": "#FF444A26",
       "text_button_bg": "#FF444A",
       "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 11,
@@ -118,7 +118,7 @@
       "card_bg": "#79C23F26",
       "text_button_bg": "#2ECC71",
       "description": "Clothing rights for children involve ensuring they have access to clean, appropriate attire. Adequate clothing not only protects them from the elements but also contributes to their self-esteem and social integration. It's essential to advocate for policies and initiatives that provide disadvantaged children with access to clothing and the means to maintain their dignity.",
-      "price": "$290.00"
+      "price": 290
     },
     {
       "id": 12,
@@ -129,6 +129,6 @@
       "card_bg": "#F8714726",
       "text_button_bg": "#F87147",
       "description": "Better food for the needy is a critical issue in addressing child poverty and malnutrition. Nutrient-rich meals are essential for a child's growth and cognitive development. To combat food insecurity, governments and charitable organizations must work together to provide nutritious food options and promote education about healthy eating to empower families in need. This ensures that no child goes to bed hungry and that they have the nourishment required for a bright future.",
-      "price": "$290.00"
+      "price": 290
     }
 ]

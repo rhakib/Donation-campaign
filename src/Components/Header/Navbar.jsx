@@ -19,7 +19,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="donation"
+                            to="allDonatedItems"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-green-600 underline" : ""
                             }

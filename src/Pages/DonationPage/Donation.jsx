@@ -16,7 +16,6 @@ const Donation = () => {
         const cardFound = cards?.find(card => card.id == id )
         setCardDetails(cardFound)
     }, [id, cards])
-    console.log(cardDetails);
 
     return (
         <div>
