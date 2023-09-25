@@ -6,7 +6,7 @@ const DonationItem = ({ card }) => {
 
     return (
 
-        <Link> 
+        <Link to={`/donationList/${id}`}> 
             <div className='pb-5 rounded-lg space-y-4' style={{ backgroundColor: card_bg }}>
                 <img className='w-full' src={picture} alt="" />
                 <div className='pl-4'>
