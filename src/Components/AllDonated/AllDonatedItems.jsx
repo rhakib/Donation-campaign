@@ -10,7 +10,7 @@ const AllDonatedItems = () => {
 
     const handleShowBtn = (e) =>{
         setIsShow(!isShow)
-        e.target.classList.add('hidden');
+        e.target.classList.add('hidden')
 
     }
 
@@ -22,14 +22,14 @@ const AllDonatedItems = () => {
         else (
             setNoFound('no donated items found')
         )
+        
     }, [])
-    console.log(donated);
 
     return (
         <div>
             {noFound ? <p className="flex justify-center items-center text-2xl font-semibold ">{noFound}</p> :
                 <div>
-                    <div className="grid grid-cols-2 gap-5 mt-5">
+                    <div className="grid grid-cols-1 p-6 md:grid-cols-2 gap-5 mt-5">
                         {
                             isShow ? donated.map(cards => <DonatedCards key={cards.id} cards={cards}></DonatedCards>) : donated.slice(0, 4).map(cards => <DonatedCards key={cards.id} cards={cards}></DonatedCards>)
                         }
@@ -37,7 +37,7 @@ const AllDonatedItems = () => {
                     </div>
                     <div>
                         {
-                            donated.length > 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-300 block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button> 
+                            donated.length >= 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-400 text-white font-semibold block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button>
                             
                         }
                         
