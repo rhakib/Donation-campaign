@@ -8,6 +8,12 @@ const AllDonatedItems = () => {
     const [noFound, setNoFound] = useState('');
     const [isShow, setIsShow] = useState(false);
 
+    const handleShowBtn = (e) =>{
+        setIsShow(!isShow)
+        e.target.classList.add('hidden')
+
+    }
+
     useEffect(() => {
         const donatedItems = JSON.parse(localStorage.getItem('donated'));
         if (donatedItems) {
@@ -31,7 +37,8 @@ const AllDonatedItems = () => {
                     </div>
                     <div>
                         {
-                            donated.length > 4 && <button onClick={() => setIsShow(!isShow)} className="px-4 py-2 bg-green-300 block mx-auto rounded-lg my-8">{isShow ? 'See less' : 'See more'}</button>
+                            donated.length > 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-300 block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button>
+                            
                         }
                         
                         
