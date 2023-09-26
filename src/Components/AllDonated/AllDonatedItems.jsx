@@ -10,7 +10,7 @@ const AllDonatedItems = () => {
 
     const handleShowBtn = (e) =>{
         setIsShow(!isShow)
-        e.target.classList.add('hidden')
+        e.target.classList.add('hidden');
 
     }
 
@@ -37,7 +37,7 @@ const AllDonatedItems = () => {
                     </div>
                     <div>
                         {
-                            donated.length > 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-300 block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button>
+                            donated.length > 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-300 block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button> 
                             
                         }
                         
