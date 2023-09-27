@@ -8,5 +8,9 @@
 .donate {
   @media screen and (min-width: 1020px) and (max-width: 1200px) {
     top: 528px;
+  };
+  @media screen and (min-width: 300px) and (max-width: 425px) {
+    top: 125px;
   }
+
 }
