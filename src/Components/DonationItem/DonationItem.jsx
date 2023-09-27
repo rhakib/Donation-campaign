@@ -7,9 +7,9 @@ const DonationItem = ({ card }) => {
     return (
 
         <Link to={`/donationList/${id}`}> 
-            <div className='pb-5 rounded-lg space-y-4' style={{ backgroundColor: card_bg }}>
+            <div className='pb-5 rounded-lg space-y-6' style={{ backgroundColor: card_bg }}>
                 <img className='w-full' src={picture} alt="" />
-                <div className='pl-4'>
+                <div className='pl-4 space-y-2'>
                     <p className='w-24 text-center p-1 px-2 rounded-md' style={{ backgroundColor: category_bg, color: text_button_bg }}>{category}</p>
                     <h3 className='font-bold text-xl' style={{ color: text_button_bg }}>{title}</h3>
                 </div>

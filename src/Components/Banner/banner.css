@@ -1,0 +1,6 @@
+.query{
+    @media screen and (min-width: 1020px) and (max-width: 1200px) {
+        left: 250px;
+      }
+      
+}

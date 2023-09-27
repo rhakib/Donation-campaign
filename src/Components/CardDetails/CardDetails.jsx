@@ -48,14 +48,14 @@ const CardDetails = ({ cardDetails }) => {
     }
 
     return (
-        <div>
+        <div className='p-6'>
             <div className='max-w-5xl mx-auto relative'>
                 <img className='w-full mx-auto' src={picture} alt="" />
-                <div className=''>
-                    <div className='bg-black bg-opacity-50 absolute top-[185px] md:top-[400px] lg:top-[558px] h-20 w-full'>
-                        <button onClick={handleDonate} className='ml-6 mt-4 bg-red-500 text-white px-3 py-2 items-center rounded-md'>Donate ${price}</button>
+                
+                    <div className='bg-black bg-opacity-50 absolute top-[155px] md:top-[370px] lg:top-[558px] h-20 w-full'>
+                        <button style={{backgroundColor: text_button_bg}} onClick={handleDonate} className='ml-6 mt-4 text-white px-3 py-2 items-center rounded-md'>Donate ${price}</button>
                     </div>
-                </div>
+                
                 <div className='mt-6 space-y-4'>
                     <h1 className='text-2xl font-bold'>{title}</h1>
                     <p>{description}</p>

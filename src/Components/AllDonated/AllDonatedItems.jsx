@@ -37,7 +37,7 @@ const AllDonatedItems = () => {
                     </div>
                     <div>
                         {
-                            donated.length >= 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-400 text-white font-semibold block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button>
+                            donated.length > 4 && <button onClick={(e)=> handleShowBtn(e)}  className="px-4 py-2 bg-green-400 text-white font-semibold block mx-auto rounded-lg my-8">{isShow ? '' : 'See more'}</button>
                             
                         }
                         
