@@ -1,6 +1,12 @@
-.query{
-    @media screen and (min-width: 1020px) and (max-width: 1200px) {
-        left: 250px;
-      }
-      
+.query {
+  @media screen and (min-width: 1020px) and (max-width: 1200px) {
+    left: 250px;
+  }
+
+}
+
+.donate {
+  @media screen and (min-width: 1020px) and (max-width: 1200px) {
+    top: 528px;
+  }
 }

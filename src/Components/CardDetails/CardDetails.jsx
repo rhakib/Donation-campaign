@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2'
+import '../Banner/banner.css'
 
 
 
@@ -52,7 +53,7 @@ const CardDetails = ({ cardDetails }) => {
             <div className='max-w-5xl mx-auto relative'>
                 <img className='w-full mx-auto' src={picture} alt="" />
                 
-                    <div className='bg-black bg-opacity-50 absolute top-[155px] md:top-[370px] lg:top-[558px] h-20 w-full'>
+                    <div className='bg-black donate bg-opacity-50 absolute top-[155px] md:top-[368px] lg:top-[558px] h-20 w-full'>
                         <button style={{backgroundColor: text_button_bg}} onClick={handleDonate} className='ml-6 mt-4 text-white px-3 py-2 items-center rounded-md'>Donate ${price}</button>
                     </div>
                 

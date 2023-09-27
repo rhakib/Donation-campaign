@@ -1,17 +1,15 @@
-import React, { useState } from 'react';
 import DonationItem from '../DonationItem/DonationItem';
 
-const DonationList = ({donationList, inputValue}) => {
+const DonationList = ({data}) => {
 
     
 
     
     return (
         <div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-12 p-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-12 p-4'>
                 {
-                   donationList?.map(card => <DonationItem key={card.id} card={card}></DonationItem>)
-                }   
+                   data?.map(card => <DonationItem key={card.id} card={card}></DonationItem>)               }   
                   
                 
                             
@@ -22,3 +20,10 @@ const DonationList = ({donationList, inputValue}) => {
 };
 
 export default DonationList;
+
+
+
+
+
+
+

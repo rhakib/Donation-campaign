@@ -2,18 +2,9 @@ import { useState } from "react";DonationList
 import DonationList from "../DonationList/DonationList";
 import './banner.css'
 
-const Banner = () => {
-    const [value , setValue] = useState('');
-    const [inputValue , setInputValue] = useState('');
-
-    const handleChange = event => {
-        setValue(event.target.value)
-    }
+const Banner = ({ handleInput, handleChange}) => {
     
-    const handleInput = () => {
-        setInputValue(value)
-    }
-    console.log(inputValue);
+
     return (
         <div className="">
             <div className="h-[550px] relative" style={{ backgroundImage: 'url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR3emnOHdNt6G8lvFU2Lk4vAFQt_SiY9uPtaD-gKEh6srbU_F4LH9kSxxJE")' }}>
@@ -27,7 +18,6 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <DonationList inputValue={inputValue}></DonationList>
         </div>
     );
 };
